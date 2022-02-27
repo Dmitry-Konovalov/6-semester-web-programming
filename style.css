@@ -3,12 +3,17 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     color: #6c7279;
+
 }
 
 *,
 *:before,
 *:after {
     box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    margin: 0;
 }
 
 /*------======Header======------*/
@@ -25,6 +30,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: content;
+
 
 }
 
@@ -45,7 +51,9 @@ body {
     text-decoration: none;
     opacity: .50;
     transition: opacity .2s linear;
-    margin-left: 50px ;
+    margin-left: 50px;
+    justify-content: right;
+
 }
 
 .nav__link:hover{
@@ -55,14 +63,105 @@ body {
 .nav {
     padding: 40px 0;
     display: flex;
-    font-size: 20px;
+    font-size: 14px;
+    margin-right:30px;
 }
+
 
 
 /*------======intro======------*/
 .intro{
-    height: 1076px;
-    padding-top: 130px;
     background: url('Images/into-bg2.png') center no-repeat, url("Images/into-bg1.png") center no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 1076px;
+
+}
+
+.into__title{
+    font-family: 'Open Sans', sans-serif;
+    /*font-size: calc(90px + (40 + 40 * 0.7) * ((100vw - 1440px) / 1440));*/
+    font-size: 90px;
+
+    text-transform: uppercase;
+    color: #edb47c;
+    text-align: left;
+
+    line-height: 120%;
+    min-width: max-content;
+}
+
+.into__title2{
+    font-style: 'Poppins', sans-serif, italic;
+    font-style: oblique;
+    text-transform: uppercase;
+    color: #54514e;
+    letter-spacing: 0.4em;
+    line-height: 240%;
+}
+
+.into__title3{
+    font-style: 'Poppins', sans-serif, italic;
+    font-style: oblique;
+    color: #7c6c64;
+    font-size: 18px;
+    text-align: left;
+    width: 100%;
+    max-width: 420px;
+    line-height: 120%;
+}
+
+
+/*------======Button======------*/
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 24px;
+    color: #7c6c64;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn--white{
+    background: url('Images/white_button.png')center no-repeat;
+    padding: 19px 39px;
+    margin: 40px 0px 20px;
+}
+
+
+
+
+
+
+.d7 form {
+    width: auto;
+    float: right;
+    padding: 27px 0;
+    display: flex;
+    font-size: 20px;
+}
+.d7 input {
+    width: 125px;
+    height: 50px;
+    padding-left: 15px;
+    border-radius: 50px 0px 0px 50px;
+    background: #c5bfbc;
+    outline: none;
+    transition: .3s linear;
+    border: none;
+}
+
+.d7 button{
+    background: #c5bfbc;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    top: 0;
+    padding: 5px 31px 5px 5px;
+
+
 }
 
