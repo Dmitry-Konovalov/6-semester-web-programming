@@ -212,7 +212,7 @@ h1, h2, h3 {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 28px 78px;
+    padding: 28px 48px;
 }
 
 .gr2_content{
@@ -221,6 +221,7 @@ h1, h2, h3 {
     display: flex;
     justify-content: space-between;
     align-items: content;
+    margin: 5px;
 
 }
 
@@ -229,15 +230,17 @@ h1, h2, h3 {
     display: flex;
     justify-content: space-between;
     align-items: content;
+
 }
 
 .img_cont{
     width: 100%;
+
 }
 
 
 .cont{
-
+    margin: 20px;
     flex-wrap: wrap;
     background: #817970;
 
@@ -276,11 +279,58 @@ h1, h2, h3 {
     object-fit: cover;
     display: flex;
     justify-content: space-between;
-        justify-content: center;
+    justify-content: center;
     font-size: 156%;
+}
 
 
+/*------=======group3======------*/
+.group3{
+    height: 1076px;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: nowrap;
 
+    flex-direction: row;
+    flex:0 0 200px;.
 
+}
 
+.container_gr3 {
+    display: flex;
+
+}
+
+.cont_gr3txt{
+    background: #7f7970;
+    max-width: 720px;
+    width: 100%;
+    font-size: 179%;
+}
+.CG3T{
+    background: #9c8e7e;
+}
+.tex_gr3_a{
+    margin: 30% 15% 2% 16%;
+}
+.tex_gr3_b{
+    margin: 0% 15% 2% 16%;
+}
+
+.img_gr3{
+    max-width: 720px;
+    width: 100%;
+}
+
+.img_size_gr3{
+    width: 100%;
+    height: auto;
+}
+
+.btn_gr3{
+    background: #d6ae83;
+    border-radius: 50px 50px 50px 50px;
+    color: #fffffb;
+    margin: 5% 15% 2% 16%;
 }
