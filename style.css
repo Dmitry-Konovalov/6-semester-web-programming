@@ -265,6 +265,7 @@ h1, h2, h3 {
     line-height: 120%;
     min-width: max-content;
     margin-bottom: 70px;
+    background:
 }
 
 .btn--grey{
@@ -304,10 +305,6 @@ h1, h2, h3 {
 
 .img_cont{
     width: 100%;
-
-<<<<<<<<< Temporary merge branch 1
-
-=========
 }
 
 
@@ -358,14 +355,14 @@ h1, h2, h3 {
 
 /*------=======group3======------*/
 .group3{
-    height: 1076px;
+    z-index: 3;
+    max-height: 100%;
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
     flex-wrap: nowrap;
-
     flex-direction: row;
-    flex:0 0 200px;.
+    flex:0 0 200px;
 
 }
 
@@ -384,14 +381,14 @@ h1, h2, h3 {
     background: #9c8e7e;
 }
 .tex_gr3_a{
-    margin: 30% 15% 2% 16%;
+    margin: 30% 10% 2% 13%;
 }
 .tex_gr3_b{
-    margin: 0% 15% 2% 16%;
+    margin: 0% 10% 2% 13%;
 }
 
 .img_gr3{
-    max-width: 720px;
+    max-width: 722px;
     width: 100%;
 }
 
@@ -402,8 +399,103 @@ h1, h2, h3 {
 
 .btn_gr3{
     background: #d6ae83;
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 40px 40px 40px 40px;
     color: #fffffb;
-    margin: 5% 15% 2% 16%;
->>>>>>>>> Temporary merge branch 2
+    margin: 5% 5% 2% 14%;
 }
+
+/*------=======group9======------*/
+.group9{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 900px;
+    background: #7a7a79;
+    z-index: 1;
+    justify-content: center;
+}
+
+.bg_gr9{
+    background: url('Images/group9_bg2.png')top no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+
+}
+
+.all_cont_gr9{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 28px 78px;
+    justify-content: space-between;
+    margin: 150px 0% 0% 0%;
+
+
+
+}
+
+.txt_cont_gr9{
+    font-weiht: normal;
+    display: flex;
+    flex-direction: row;
+}
+
+.tCg9{
+    width: 100%;
+    max-width: 350px;
+}
+
+.tCg9a{
+    width: 185px;
+    max-width: 100%;
+    margin-right: 3%;
+
+}
+
+.txt_h1gr9aa{
+    font-family: 'Libre Franklin', sans-serif;
+    color: #f6f6f5;
+    font-size: 25px;
+    text-align: left;
+    width: 100%;
+    max-width: 340px;
+    margin: 0px 0px 20px 0px;
+
+
+
+}
+
+.txt_h2gr9ab{
+    font-family: 'Libre Franklin', sans-serif;
+    color: #f6f6f5;
+    font-size: 19px;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+
+}
+
+.txt_h2gr9bb{
+    line-height: 160%;
+}
+
+.txt_h2gr9aa{
+    padding: 1% 0px;
+}
+
+.icon{
+    background: url('Images/inst.png')top no-repeat, url('Images/fb.png')center no-repeat,
+    url('Images/tw.png')top no-repeat, url('Images/wt.png')top no-repeat;
+    background-position: 0px 20px, 60px 20px, 120px 20px, 180px 20px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
