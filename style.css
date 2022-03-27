@@ -29,8 +29,11 @@ h1, h2, h3 {
 .header.fixed{
     position: fixed;
     background: #ffffff;
+    height: 100px;
 }
-
+.header.fixed .container{
+    padding: 3px 78px;
+}
 .header__inner {
     display: flex;
     justify-content: space-between;
