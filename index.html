@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -9,11 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap" rel="stylesheet">
     <title>travel agency</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <meta name="description" content="It's time for hiking">
+    <meta name="keywords" content="It's time for hiking">
 </head>
 <body>
 
 <!------======header======------>
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <div class="header__inner">
                 <div class="header__logo">
@@ -21,10 +24,10 @@
                 </div>
                 <div class="hl">
                     <nav class="nav">
-                        <a class="nav__link" href ="#">HOME</a>
-                        <a class="nav__link" href ="#">MENU</a>
-                        <a class="nav__link" href ="#">OUR STORY</a>
-                        <a class="nav__link" href ="#">Сontact us</a>
+                        <a class="nav__link" href ="#" data-scroll="#group1">HOME</a>
+                        <a class="nav__link" href ="#"data-scroll="#group2">MENU</a>
+                        <a class="nav__link" href ="#"data-scroll="#group3">OUR STORY</a>
+                        <a class="nav__link" href ="#"data-scroll="#group9">Сontact us</a>
                     </nav>
                     <div class="d7">
                         <form>
@@ -39,7 +42,7 @@
     </header>
 
 <!------======group1======------>
-    <div class="group1">
+    <div class="group1" id="group1">
         <div class="container">
             <h1 class="into__title">
                 It's time <br> for hiking <br>
@@ -58,7 +61,7 @@
     </div>
 
 <!------=======group2======------>
-    <div class="group2">
+    <div class="group2" id="group2">
         <div class="container_gr2">
             <h1 class="group2h1">
                 let's go
@@ -115,5 +118,118 @@
 
         </div>
     </div>
+
+        </div>
+    </div>
+<!------=======group3======------>
+    <div class="group3" id="group3">
+        <div class="container_gr3">
+            <div class="img_gr3">
+                <img src="images/group3.png" alt="" class="img_size_gr3">
+            </div>
+            <div class="cont_gr3txt">
+                <h1 class="tex_h1_cont tex_gr3_a">
+                    Discount up to <br> 50% All Excursions
+                </h1>
+                <br>
+                <h2 class="tex_h2_cont tex_gr3_b">
+                    Lorem ipsum dolor sit  amet, <br>
+                    consectetur adipiscing...
+                </h2>
+                <a class="btn btn--white btn_gr3" href="#">
+                    Read more
+                </a>
+            </div>
+        </div>
+        <div class="container_gr3">
+            <div class="cont_gr3txt CG3T">
+                <h1 class="tex_h1_cont tex_gr3_a">
+                    January's Promo: <br> Buy 1 Get 1 Free!
+                </h1>
+                <br>
+                <h2 class="tex_h2_cont tex_gr3_b">
+                    Lorem ipsum dolor sit  amet, <br>
+                    consectetur adipiscing...
+                </h2>
+                <a class="btn btn--white btn_gr3" href="#">
+                    Read more
+                </a>
+            </div>
+
+            <div class="img_gr3">
+                <img src="images/group3.1.png" width="720px" alt="" class="img_size_gr3">
+            </div>
+
+        </div>
+    </div>
+<!------=======group9======------>
+    <div class="group9" id="group9">
+        <div class="bg_gr9">
+        </div>
+        <div class="all_cont_gr9">
+            <div class="txt_cont_gr9">
+                <div class="tCg9">
+                    <h1 class="txt_h1gr9aa">
+                        Title Here
+                    </h1>
+
+                    <h2 class="txt_h2gr9ab txt_h2gr9aa">
+                        Lorem ipsum dolor sit  amet, consecte&shy;tur
+                        adipiscing elit. Aligum at dignis-<br>sim
+                        nunc, id maximus ex. Exiam nec<br>
+                        dignissim elit, at dignissim enim.
+                    </h2>
+                    <div class="icon">
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="txt_cont_gr9">
+                <div class="tCg9a">
+                    <h1 class="txt_h1gr9aa">
+                        About
+                    </h1>
+
+                    <h2 class="txt_h2gr9ab txt_h2gr9bb">
+                        History <br>
+                        Our Team <br>
+                        Brand Guidelines <br>
+                        Terms & Condition <br>
+                        Privacy Policy
+                    </h2>
+                </div>
+                <div class="tCg9a">
+                    <h1 class="txt_h1gr9aa">
+                        Services
+                    </h1>
+
+                    <h2 class="txt_h2gr9ab txt_h2gr9bb">
+                        Now to Order <br>
+                        Our Product <br>
+                        Order Status <br>
+                        Promo <br>
+                        Payment Method
+                    </h2>
+                </div>
+                <div class="tCg9c">
+                    <h1 class="txt_h1gr9aa">
+                        Other
+                    </h1>
+
+                    <h2 class="txt_h2gr9ab txt_h2gr9bb">
+                        Contact US <br>
+                        Help <br>
+                        Privacy
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="app.js">
+
+</script>
+
 </body>
 </html>
